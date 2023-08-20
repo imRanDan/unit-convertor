@@ -49,13 +49,28 @@
 }
 
 .length-container {
-
+    border: 1px solid black;
+    min-width: 500px;
+    min-height: 108px;
+    margin: 10px 0;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .volume-container {
-
+    border: 1px solid black;
+    min-width: 500px;
+    min-height: 108px;
+    margin: 10px 0;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .mass-container {
-
+    border: 1px solid black;
+    min-width: 500px;
+    min-height: 108px;
+    margin: 10px 0;
+    padding-top: 30px;
+    text-align: center;
 }
