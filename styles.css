@@ -44,6 +44,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
+    color: #F43F5E;
 }
 
 .length-container {
@@ -55,5 +57,5 @@
 }
 
 .mass-container {
-    
+
 }
