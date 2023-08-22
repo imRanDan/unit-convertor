@@ -41,9 +41,9 @@
 
 .input-display-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     color: #F43F5E;
 }
@@ -55,6 +55,9 @@
     margin: 10px 0;
     padding-top: 30px;
     text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .volume-container {
@@ -64,6 +67,9 @@
     margin: 10px 0;
     padding-top: 30px;
     text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mass-container {
@@ -73,4 +79,11 @@
     margin: 10px 0;
     padding-top: 30px;
     text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 400px) {
+    
 }
