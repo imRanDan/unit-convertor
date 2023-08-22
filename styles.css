@@ -4,86 +4,89 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* Base styles */
+
 .input-container {
     background-color: #F43F5E;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 550px;
-    min-height: 285px;
-    justify-content: center;
-
+    padding: 20px;
     color: white;
 }
 
 .input-container input {
-    max-width: 117px;
-    min-height: 83px;
-
-    font-size: 58px;
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    font-size: 24px;
     font-weight: 800;
     text-align: center;
     padding: 10px;
     background: transparent;
     border: 1px solid #FB7185;
     color: white;
-
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .input-container button {
     padding: 12px 24px;
     border-radius: 8px;
-    border: transparent
+    border: transparent;
 }
-
-/* Input Display Container */
 
 .input-display-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     color: #F43F5E;
+    padding: 20px;
 }
 
-.length-container {
-    border: 1px solid black;
-    min-width: 500px;
-    min-height: 108px;
-    margin: 10px 0;
-    padding-top: 30px;
-    text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.volume-container {
-    border: 1px solid black;
-    min-width: 500px;
-    min-height: 108px;
-    margin: 10px 0;
-    padding-top: 30px;
-    text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
+.length-container,
+.volume-container,
 .mass-container {
     border: 1px solid black;
-    min-width: 500px;
+    width: 100%;
+    max-width: 500px;
     min-height: 108px;
     margin: 10px 0;
     padding-top: 30px;
     text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
 }
 
-@media (min-width: 400px) {
-    
+/* Media Queries */
+
+/* For phones */
+@media (max-width: 576px) {
+    .input-container {
+        padding: 10px;
+    }
+
+    .input-container input {
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .length-container,
+    .volume-container,
+    .mass-container {
+        max-width: 100%;
+    }
+}
+
+/* For tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Adjust styles as needed */
+}
+
+/* For laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles as needed */
+}
+
+/* For desktops */
+@media (min-width: 1025px) {
+    /* Adjust styles as needed */
 }
